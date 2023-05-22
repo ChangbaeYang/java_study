@@ -1,0 +1,15 @@
+package object;
+
+class ToStringEx {
+	int bookNumber;
+	String bookTitle;
+	
+	ToStringEx(int bookNumber, String bookTitle) {
+		this.bookNumber = bookNumber;
+		this.bookTitle = bookTitle;
+	}
+}
+
+public class ToStringEx {
+	
+}
