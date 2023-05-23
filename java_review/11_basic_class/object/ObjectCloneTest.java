@@ -42,7 +42,7 @@ public class ObjectCloneTest {
 		
 		System.out.println(circle);
 		System.out.println(copyCircle);
-		System.out.println(System.identityHashCode(circle));
+		System.out.println(circle.hashCode());
 		System.out.println(System.identityHashCode(copyCircle));
 	}
 }
