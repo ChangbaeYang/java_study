@@ -15,6 +15,5 @@ public class GenerEx {
 		
 		soockRiceCake.whatTaste();	// 쓴맛!
 		ssalRiceCake.whatTaste();	// 단맛!
-		ArrayList
 	}
 }

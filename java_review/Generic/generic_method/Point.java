@@ -21,6 +21,4 @@ public class Point<T, V> {
 	public V getY() {
 		return y;
 	}
-	
-	
 }

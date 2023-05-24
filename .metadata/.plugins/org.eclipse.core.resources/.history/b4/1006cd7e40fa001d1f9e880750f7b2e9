@@ -1,0 +1,17 @@
+package generic_method;
+
+public class GenericMethod {
+	// 제너릭 메서드
+	public static double makeRectangle(Point<T, V> p1, Point<T, V> p2) {
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		Point<Integer, Double> p1 = new Point<Integer, Double>(0, 0.0);
+		Point<Integer, Double> p2 = new Point<>(10, 10.0);	// 자료형을 명시하지 않아도 Java1.7부터 컴파일러가 자동으로 파악함
+		
+		
+	}
+
+}
