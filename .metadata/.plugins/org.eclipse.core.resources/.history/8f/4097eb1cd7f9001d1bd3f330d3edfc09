@@ -1,0 +1,52 @@
+package generic;
+
+class Soock {
+	private String name;
+	
+	public void setSoock(String name) {
+		this.name = name;
+	}
+	
+	public Soock(String name) {
+		this.name = name;
+	}
+}
+
+class Ssal {
+	private String name;
+	
+	public void setSsal(String name) {
+		this.name = name;
+	}
+	
+	public Ssal(String name) {
+		this.name = name;
+	}
+}
+
+
+
+class RiceCake {
+	private Object material;
+	
+	public void setMaterial(Object material) {
+		this.material = material;
+	}
+	
+	public Object getMaterial() {
+		return material;
+	}
+}
+
+
+
+
+public class WhyGeneric {
+
+	public static void main(String[] args) {
+		Soock soock = new Soock("쑥");
+		RiceCake riceCake1 = new RiceCake();
+
+	}
+
+}

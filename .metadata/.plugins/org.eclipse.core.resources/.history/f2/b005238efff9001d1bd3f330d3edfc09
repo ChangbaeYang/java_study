@@ -1,0 +1,19 @@
+package generic;
+
+public class Ssal {
+	private String name;
+	
+	public void setSoock(String name) {
+		this.name = name;
+	}
+	
+	public Soock(String name) {
+		this.name = name;
+	}
+	
+	@Override
+	public String toString() {
+		return this.name;
+	}
+}
+

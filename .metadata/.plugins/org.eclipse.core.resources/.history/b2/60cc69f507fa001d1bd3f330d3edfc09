@@ -1,0 +1,19 @@
+package generic;
+
+public class Ssal {
+	private String name;
+	
+	public void setSsal(String name) {
+		this.name = name;
+	}
+	
+	public Ssal(String name) {
+		this.name = name;
+	}
+	
+	@Override
+	public String toString() {
+		return this.name;
+	}
+}
+

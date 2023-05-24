@@ -1,0 +1,15 @@
+package wrapper;
+
+public class Wrapper03 {
+
+	public static void main(String[] args) {
+		Integer num1 = 10;
+		Integer num2 = 20;
+		Integer num3 = 10;
+		
+		System.out.println(num1 < num2);		// true
+		System.out.println(num1 == num3);		// false
+		System.out.println(num1.equals(num3));	// true
+	}
+
+}

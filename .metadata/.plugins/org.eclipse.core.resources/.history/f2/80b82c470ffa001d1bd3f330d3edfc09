@@ -1,0 +1,24 @@
+package generic_method;
+
+public class Point<T, V> {
+	T x;	// 멤버 변수
+	V y;	// 멤버 변수
+	
+	// 점 생성자
+	Point(T x, V y) {
+		this.x = x;
+		this.y = y;
+	}
+	
+	// 멤버 함수이자 제너릭 메소드
+	public T getX() {
+		return x;
+	}
+	
+	// 멤버 함수이자 제너릭 메소드
+	public V getY() {
+		return y;
+	}
+	
+	
+}

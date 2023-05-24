@@ -1,0 +1,23 @@
+package generic;
+
+public class Soock extends Material{
+	private String name;
+	
+	public void setSoock(String name) {
+		this.name = name;
+	}
+	
+	public Soock(String name) {
+		this.name = name;
+	}
+	
+	@Override
+	public String toString() {
+		return this.name;
+	}
+
+	@Override
+	public void taste() {
+		System.out.println("쓴맛!");	
+	}
+}

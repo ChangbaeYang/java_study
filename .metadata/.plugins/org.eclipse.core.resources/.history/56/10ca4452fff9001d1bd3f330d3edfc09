@@ -1,0 +1,13 @@
+package generic;
+
+public class Soock {
+	private String name;
+	
+	public void setSoock(String name) {
+		this.name = name;
+	}
+	
+	public Soock(String name) {
+		this.name = name;
+	}
+}

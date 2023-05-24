@@ -7,6 +7,7 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="5_class"/>
-	<classpathentry kind="src" path="11_basic_class"/>
+	<classpathentry kind="src" path="12_java_API_class"/>
+	<classpathentry kind="src" path="Generic"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,0 +1,9 @@
+package wrapper;
+
+public class WrapperTest {
+	public static void main(String[] args) {
+		Integer num = new Integer(17);	// 박싱 -> 버전 9부턴 활용X
+		
+	}
+
+}

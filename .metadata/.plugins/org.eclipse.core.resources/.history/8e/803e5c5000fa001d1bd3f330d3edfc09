@@ -1,0 +1,17 @@
+package generic;
+
+public class GenerEx {
+
+	public static void main(String[] args) {
+		GenericRiceCake<Soock> soockRiceCake = new GenericRiceCake<Soock>();
+		soockRiceCake.setMaterial(new Soock("꿀쑥"));
+		Soock soock = soockRiceCake.getMaterial();	// 명시적 형변환을 하지 않음
+		System.out.println(soock);	// 꿀쑥
+		
+		GenericRiceCake<Ssal> ssalRiceCake = new GenericRiceCake<Ssal>();
+		ssalRiceCake.setMaterial(new Ssal("꿀쌀"));
+		Ssal ssal = ssalRiceCake.getMaterial();		// 명시적 형변환을 하지 않음
+		System.out.println(ssal);	// 꿀쌀
+	}
+
+}

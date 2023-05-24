@@ -1,0 +1,7 @@
+package generic;
+
+public class GenericRiceCake<T> {
+	private T material;
+	
+	
+}

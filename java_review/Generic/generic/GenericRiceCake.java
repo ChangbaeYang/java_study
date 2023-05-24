@@ -1,0 +1,18 @@
+package generic;
+
+// T : 자료형 매개변수
+public class GenericRiceCake<T extends Material> {
+	private T material;
+	
+	public void setMaterial(T material) {
+		this.material = material;
+	}
+	
+	public T getMaterial() {
+		return material;
+	}
+	
+	public void whatTaste() {
+    	material.taste();
+    }
+}

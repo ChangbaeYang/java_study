@@ -1,0 +1,52 @@
+package generic;
+
+class Soock {
+}
+
+class RiceCake {
+	private Soock material;
+	
+	public void setMaterial(Soock material) {
+		this.material = material;
+	}
+	
+	public Soock getMaterial() {
+		return material;
+	}
+}
+
+class RiceCake {
+	private Ssal material;
+	
+	public void setMaterial(Ssal material) {
+		this.material = material;
+	}
+	
+	public Ssal getMaterial() {
+		return material;
+	}
+}
+
+public class RiceCake {
+	private Object material;
+	
+	public void setMaterial(Object material) {
+		this.material = material;
+	}
+	
+	public Object getMaterial() {
+		return material;
+	}
+}
+
+
+
+
+public class WhyGeneric {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

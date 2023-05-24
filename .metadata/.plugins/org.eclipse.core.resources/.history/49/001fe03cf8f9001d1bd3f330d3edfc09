@@ -1,0 +1,14 @@
+package generic;
+
+public class WhyGeneric {
+
+	public static void main(String[] args) {
+		Soock soock = new Soock("쑥");
+		RiceCake riceCake1 = new RiceCake();
+		riceCake1.setMaterial(soock);	// 자동 형변환되서 soock이 들어감
+		
+		Soock soock2 = (Soock)riceCake1.getMaterial();	// Soock으로 형변환을 시켜줘야함
+		// -> 매번 형변환을 해줘야하는 까다로움
+	}
+
+}
